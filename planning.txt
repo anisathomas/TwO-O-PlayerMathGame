@@ -6,36 +6,3 @@ Both players start with 3 lives. They lose a life if they mis-answer a question.
 
 The game doesn’t end until one of the players loses all their lives. At this point, the game should announce who won and what the other player’s score is.
 
-Tasks
-Task 1: Extract Nouns for Classes
-  -main.rb
-  -game.rb
-  -turn_manager.rb
-  -player.rb
-  -mathQuestion.rb
-
-
-Task 2: Write their roles
-class(es) will contain user I/O and which will not have any?
-Use gets.chomp to get input from users and puts for output
-Isolate your I/O logic to one or two classes. Don't allow all your classes to interact (gets/puts) with the User
- main.rb
-
-  game.rb
-    class will contain the game loop (where each instance of the loop is the other players turn)
-
-
-  turn_manager.rb
-    class should manage who the current_player is
-
-  player.rb
-    manages state of the player
-    3 lives
-
-
-  mathQuestion.rb
-    generates math question
-
-Task 3: Peer and Mentor review
-
-
